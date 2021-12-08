@@ -10,8 +10,9 @@ export function Header() {
                     <a className={styles.active}>Home</a>
                     <a>Posts</a>
                 </nav>
-            </div>
-            <SignInButton />
+
+                <SignInButton />
+            </div>            
         </header>
     )
 }
